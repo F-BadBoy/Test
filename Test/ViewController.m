@@ -97,6 +97,11 @@
     btn.backgroundColor = [UIColor greenColor];
     [self.view addSubview:btn];
     [btn addTarget:self action:@selector(tiao) forControlEvents:UIControlEventTouchUpInside];
+    /**
+     *  /////////////////////////
+     *
+     *  @return <#return value description#>
+     */
 }
 
 - (void)doSomethings
