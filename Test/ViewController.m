@@ -24,6 +24,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"修改，提交，练习");
     count = 0;
     
     NSString *str = [NSString stringWithFormat:NSLocalizedString(@"a", nil),5];
